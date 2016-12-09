@@ -1,0 +1,14 @@
+var Pan=React.createClass({
+  render : function(){
+    return (
+    <div>
+       <div className="little-panel" >
+         little panel
+        </div>
+        <div className="big-panel">
+          big panel
+        </div>
+    </div>)
+  }
+});
+ReactDOM.render(<Pan />,document.getElementById("container"));
