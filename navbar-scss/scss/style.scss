@@ -1,0 +1,22 @@
+$bg-color:#2c3e50;
+$hover-color:#16a085;
+$text-color:#ffffff;
+
+nav {
+  ul {
+    background:$bg-color;
+    list-style:none;
+  }
+  li {
+    display:inline-block;
+  }
+  a{
+    color:$text-color;
+    display:inline-block;
+    padding:15px 15px;
+    text-decoration:none;
+  }
+  a:hover{
+    background:$hover-color;
+  }
+}
